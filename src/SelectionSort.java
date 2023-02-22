@@ -18,3 +18,13 @@ public class SelectionSort {
         System.out.println(sortArray);
     }
 }
+
+//        n=[12,3,34,-1,7]
+//        for i in range(0,len(n)):
+//          index=i
+//          for j in range(i,len(n)-1):
+//              if(n[index]>n[j+1]):
+//                  index=j+1
+//          n[i],n[index]= n[index],n[i]
+//
+//        print(n)
